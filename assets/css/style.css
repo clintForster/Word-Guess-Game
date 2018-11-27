@@ -17,6 +17,11 @@ span {
 .blinking{
     animation:blinkingText 0.8s infinite;
 }
+
+.nowrap {
+    white-space: nowrap;
+}
+
 @keyframes blinkingText{
     0%{     color: #000;    }
     49%{    color:  #000; }
@@ -52,4 +57,10 @@ span {
 
 #word {
     display: inline;
+}
+
+#wrapper {
+
+    display: inline;
+
 }

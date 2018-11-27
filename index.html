@@ -7,7 +7,6 @@
     <title>Clint's Website</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 </head>
 <body>
@@ -21,12 +20,14 @@
             
             <span id = "blink" class="blinking">Press any key to get started!</span>
             <br>
-            <span id="word"></span>
+            <span id="word" class="blinking"></span>
             
             <div>
-                <p>WINS: 0</p>
-                <p id = "numberofguess">Number of Guesses Remaining: 8</p>
-                <p id = "lettersalreadyguess">Letters Already Guessed: </p>
+                <div id="wrapper">
+                    <p id="wins">WINS: 0</p>
+                    <p id = "numberofguess">Number of Guesses Remaining: <p id = "guessesLeft"></p></p>
+                    <p id = "lettersalreadyguess">Letters Already Guessed: <p id = "lettersGuessed"></p></p>
+                </div>
             </div>
         </div>
     </main>
